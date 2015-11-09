@@ -1,4 +1,4 @@
-update=2015-11-09 02:23:59
+update=2015-11-09 02:26:54
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=adcparts
+LibName31=microphone
