@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\mark\Documents\GitHub\Capstone\ADC\ADC.sch</source>
-    <date>2015-11-09 03:59:03</date>
-    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <source>/home/mark25/Capstone/ADC/ADC.sch</source>
+    <date>Mon 16 Nov 2015 03:09:36 AM EST</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Microphone, Pre-Amp, and ADC</title>
@@ -21,594 +21,710 @@
   <components>
     <comp ref="U3">
       <value>TL074</value>
+      <footprint>Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
       <libsource lib="linear" part="TL074"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640454A</tstamp>
     </comp>
     <comp ref="U6">
       <value>AK5703</value>
+      <footprint>Housings_DFN_QFN:QFN-28-1EP_4x4mm_Pitch0.4mm</footprint>
       <libsource lib="adcparts" part="AK5703"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564061C6</tstamp>
     </comp>
     <comp ref="U2">
-      <value>MICA</value>
+      <value>MICB</value>
+      <footprint>Buzzers_Beepers:MagneticBuzzer_Kingstate_KCG0601</footprint>
       <libsource lib="microphone" part="MIC_ELECTRET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406213</tstamp>
     </comp>
     <comp ref="R2">
       <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564064ED</tstamp>
     </comp>
     <comp ref="R1">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406530</tstamp>
     </comp>
     <comp ref="R4">
       <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640655F</tstamp>
     </comp>
     <comp ref="R5">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640658E</tstamp>
     </comp>
     <comp ref="R6">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564065D1</tstamp>
     </comp>
     <comp ref="R3">
       <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406606</tstamp>
     </comp>
     <comp ref="R8">
       <value>82k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406686</tstamp>
     </comp>
     <comp ref="R7">
       <value>820</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564066CB</tstamp>
     </comp>
     <comp ref="C1">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640670E</tstamp>
     </comp>
     <comp ref="C2">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406763</tstamp>
     </comp>
     <comp ref="C5">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640679E</tstamp>
     </comp>
     <comp ref="C8">
       <value>180p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406824</tstamp>
     </comp>
     <comp ref="C7">
       <value>3.3u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406869</tstamp>
     </comp>
     <comp ref="C4">
       <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564068BA</tstamp>
     </comp>
     <comp ref="C3">
       <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56406903</tstamp>
     </comp>
     <comp ref="U1">
       <value>MICA</value>
+      <footprint>Buzzers_Beepers:MagneticBuzzer_Kingstate_KCG0601</footprint>
       <libsource lib="microphone" part="MIC_ELECTRET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096DA</tstamp>
     </comp>
     <comp ref="R11">
       <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096E0</tstamp>
     </comp>
     <comp ref="R10">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096E6</tstamp>
     </comp>
     <comp ref="R15">
       <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096EC</tstamp>
     </comp>
     <comp ref="R12">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096F2</tstamp>
     </comp>
     <comp ref="R13">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096F8</tstamp>
     </comp>
     <comp ref="R14">
       <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564096FE</tstamp>
     </comp>
     <comp ref="R17">
       <value>82k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56409704</tstamp>
     </comp>
     <comp ref="R16">
       <value>820</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640970A</tstamp>
     </comp>
     <comp ref="C9">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56409710</tstamp>
     </comp>
     <comp ref="C13">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56409716</tstamp>
     </comp>
     <comp ref="C11">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640971C</tstamp>
     </comp>
     <comp ref="C16">
       <value>180p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56409728</tstamp>
     </comp>
     <comp ref="C14">
       <value>3.3u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640972E</tstamp>
     </comp>
     <comp ref="C12">
       <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56409734</tstamp>
     </comp>
     <comp ref="C10">
       <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640973A</tstamp>
     </comp>
     <comp ref="U4">
-      <value>MICA</value>
+      <value>MICC</value>
+      <footprint>Buzzers_Beepers:MagneticBuzzer_Kingstate_KCG0601</footprint>
       <libsource lib="microphone" part="MIC_ELECTRET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A19B</tstamp>
     </comp>
     <comp ref="R20">
       <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1A1</tstamp>
     </comp>
     <comp ref="R19">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1A7</tstamp>
     </comp>
     <comp ref="R29">
       <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1AD</tstamp>
     </comp>
     <comp ref="R21">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1B3</tstamp>
     </comp>
     <comp ref="R22">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1B9</tstamp>
     </comp>
     <comp ref="R27">
       <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1BF</tstamp>
     </comp>
     <comp ref="R33">
       <value>82k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1C5</tstamp>
     </comp>
     <comp ref="R31">
       <value>820</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1CB</tstamp>
     </comp>
     <comp ref="C19">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1D1</tstamp>
     </comp>
     <comp ref="C27">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1D7</tstamp>
     </comp>
     <comp ref="C23">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1DD</tstamp>
     </comp>
     <comp ref="C31">
       <value>180p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1E9</tstamp>
     </comp>
     <comp ref="C29">
       <value>3.3u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1EF</tstamp>
     </comp>
     <comp ref="C25">
       <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1F5</tstamp>
     </comp>
     <comp ref="C21">
       <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A1FB</tstamp>
     </comp>
     <comp ref="U5">
-      <value>MICA</value>
+      <value>MICD</value>
+      <footprint>Buzzers_Beepers:MagneticBuzzer_Kingstate_KCG0601</footprint>
       <libsource lib="microphone" part="MIC_ELECTRET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6E0</tstamp>
     </comp>
     <comp ref="R24">
       <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6E6</tstamp>
     </comp>
     <comp ref="R23">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6EC</tstamp>
     </comp>
     <comp ref="R30">
       <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6F2</tstamp>
     </comp>
     <comp ref="R25">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6F8</tstamp>
     </comp>
     <comp ref="R26">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A6FE</tstamp>
     </comp>
     <comp ref="R28">
       <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A704</tstamp>
     </comp>
     <comp ref="R34">
       <value>82k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A70A</tstamp>
     </comp>
     <comp ref="R32">
       <value>820</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A710</tstamp>
     </comp>
     <comp ref="C20">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A716</tstamp>
     </comp>
     <comp ref="C28">
       <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A71C</tstamp>
     </comp>
     <comp ref="C24">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A722</tstamp>
     </comp>
     <comp ref="C32">
       <value>180p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A72E</tstamp>
     </comp>
     <comp ref="C30">
       <value>3.3u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A734</tstamp>
     </comp>
     <comp ref="C26">
       <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A73A</tstamp>
     </comp>
     <comp ref="C22">
       <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5640A740</tstamp>
     </comp>
     <comp ref="D2">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56412DA4</tstamp>
     </comp>
     <comp ref="D1">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56412F07</tstamp>
     </comp>
     <comp ref="R9">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56413BC9</tstamp>
     </comp>
     <comp ref="D3">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564163F3</tstamp>
     </comp>
     <comp ref="D4">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564163F9</tstamp>
     </comp>
     <comp ref="R18">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56416408</tstamp>
     </comp>
     <comp ref="D5">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56416B6F</tstamp>
     </comp>
     <comp ref="D6">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56416B75</tstamp>
     </comp>
     <comp ref="R35">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56416B84</tstamp>
     </comp>
     <comp ref="D7">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564174BA</tstamp>
     </comp>
     <comp ref="D8">
       <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564174C0</tstamp>
     </comp>
     <comp ref="R36">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564174CF</tstamp>
     </comp>
     <comp ref="C35">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5641DC7B</tstamp>
     </comp>
     <comp ref="C33">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5641E42A</tstamp>
     </comp>
     <comp ref="C34">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5641E5A7</tstamp>
     </comp>
     <comp ref="C17">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5641EC50</tstamp>
     </comp>
     <comp ref="C6">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5641ED13</tstamp>
     </comp>
     <comp ref="C36">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56420245</tstamp>
     </comp>
     <comp ref="C37">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642030E</tstamp>
     </comp>
     <comp ref="C38">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564203D7</tstamp>
     </comp>
     <comp ref="C40">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642367B</tstamp>
     </comp>
     <comp ref="C41">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564298DC</tstamp>
     </comp>
     <comp ref="C39">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56429C49</tstamp>
     </comp>
     <comp ref="C18">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642D31B</tstamp>
     </comp>
     <comp ref="C15">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642D3FA</tstamp>
     </comp>
     <comp ref="R40">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642F7FB</tstamp>
     </comp>
     <comp ref="R39">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5642FFDA</tstamp>
     </comp>
     <comp ref="R41">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5643019F</tstamp>
     </comp>
     <comp ref="R37">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56430659</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_02X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08</footprint>
       <libsource lib="conn" part="CONN_02X08"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5643451E</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_02X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05</footprint>
       <libsource lib="conn" part="CONN_02X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56434A52</tstamp>
     </comp>
     <comp ref="R38">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564398E8</tstamp>
     </comp>
   </components>
   <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="D_Schottky">
       <description>Diode schottky</description>
       <footprints>
@@ -623,8 +739,8 @@
         <field name="Value">D_Schottky</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -640,6 +756,30 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_02X08">
@@ -670,30 +810,6 @@
         <pin num="14" name="P14" type="passive"/>
         <pin num="15" name="P15" type="passive"/>
         <pin num="16" name="P16" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X05">
-      <footprints>
-        <fp>Pin_Header_Straight_2X05</fp>
-        <fp>Pin_Header_Angled_2X05</fp>
-        <fp>Socket_Strip_Straight_2X05</fp>
-        <fp>Socket_Strip_Angled_2X05</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X05</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="linear" part="LM2902N">
@@ -778,40 +894,22 @@
         <pin num="2" name="-" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
-    </library>
     <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
     <library logical="adcparts">
-      <uri>C:\Users\mark\Documents\GitHub\Capstone\ADC\adcparts.lib</uri>
+      <uri>/home/mark25/Capstone/ADC/adcparts.lib</uri>
     </library>
     <library logical="microphone">
-      <uri>C:\Users\mark\Documents\GitHub\Capstone\ADC\microphone.lib</uri>
+      <uri>/home/mark25/Capstone/ADC/microphone.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -896,16 +994,16 @@
       <node ref="C34" pin="1"/>
       <node ref="R36" pin="2"/>
     </net>
-    <net code="7" name="L2ch">
+    <net code="7" name="L1ch">
       <node ref="D3" pin="2"/>
-      <node ref="U6" pin="27"/>
-      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="1"/>
       <node ref="R18" pin="1"/>
+      <node ref="U6" pin="21"/>
       <node ref="D4" pin="1"/>
     </net>
     <net code="8" name="Net-(C17-Pad1)">
-      <node ref="C17" pin="1"/>
       <node ref="R18" pin="2"/>
+      <node ref="C17" pin="1"/>
     </net>
     <net code="9" name="Net-(C38-Pad1)">
       <node ref="C38" pin="1"/>
@@ -924,19 +1022,19 @@
       <node ref="U6" pin="20"/>
     </net>
     <net code="13" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
       <node ref="R9" pin="2"/>
+      <node ref="C6" pin="1"/>
     </net>
     <net code="14" name="Net-(C24-Pad1)">
+      <node ref="R30" pin="1"/>
       <node ref="C24" pin="1"/>
       <node ref="U3" pin="12"/>
-      <node ref="R30" pin="1"/>
     </net>
     <net code="15" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1"/>
       <node ref="R25" pin="2"/>
-      <node ref="R26" pin="1"/>
       <node ref="R28" pin="2"/>
+      <node ref="R26" pin="1"/>
     </net>
     <net code="16" name="VAA">
       <node ref="R10" pin="1"/>
@@ -948,24 +1046,24 @@
       <node ref="R19" pin="1"/>
       <node ref="R21" pin="1"/>
       <node ref="C27" pin="1"/>
-      <node ref="C15" pin="1"/>
       <node ref="U3" pin="4"/>
-      <node ref="R23" pin="1"/>
-      <node ref="R25" pin="1"/>
-      <node ref="P2" pin="10"/>
       <node ref="R5" pin="1"/>
       <node ref="R1" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="P2" pin="10"/>
+      <node ref="R25" pin="1"/>
     </net>
     <net code="17" name="Net-(C24-Pad2)">
-      <node ref="R24" pin="2"/>
-      <node ref="C24" pin="2"/>
       <node ref="U5" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R24" pin="2"/>
     </net>
     <net code="18" name="Net-(C32-Pad1)">
-      <node ref="C32" pin="1"/>
       <node ref="R34" pin="1"/>
-      <node ref="U3" pin="14"/>
+      <node ref="C32" pin="1"/>
       <node ref="C34" pin="2"/>
+      <node ref="U3" pin="14"/>
     </net>
     <net code="19" name="Net-(C30-Pad1)">
       <node ref="R32" pin="2"/>
@@ -977,21 +1075,21 @@
       <node ref="C26" pin="1"/>
     </net>
     <net code="21" name="Net-(C20-Pad1)">
-      <node ref="C20" pin="1"/>
       <node ref="R23" pin="2"/>
+      <node ref="C20" pin="1"/>
       <node ref="R24" pin="1"/>
     </net>
-    <net code="22" name="L1ch">
-      <node ref="P1" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="U6" pin="21"/>
-      <node ref="D2" pin="2"/>
+    <net code="22" name="L2ch">
       <node ref="D1" pin="1"/>
+      <node ref="U6" pin="27"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="23" name="Net-(C32-Pad2)">
+      <node ref="U3" pin="13"/>
       <node ref="R32" pin="1"/>
       <node ref="R34" pin="2"/>
-      <node ref="U3" pin="13"/>
       <node ref="C32" pin="2"/>
     </net>
     <net code="24" name="SDTOA">
