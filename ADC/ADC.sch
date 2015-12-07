@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ADC-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1527,7 +1528,7 @@ Wire Wire Line
 Text Notes 1050 6750 0    60   ~ 0
 VAA should be between 3-12v.\nIt is the bias voltage for the mics,\nand the supply voltage for the opamps.
 $Comp
-L D_Schottky D2
+L D_Schottky-RESCUE-ADC D2
 U 1 1 56412DA4
 P 3850 1500
 F 0 "D2" H 3850 1600 50  0000 C CNN
@@ -1538,7 +1539,7 @@ F 3 "" H 3850 1500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D1
+L D_Schottky-RESCUE-ADC D1
 U 1 1 56412F07
 P 3850 2000
 F 0 "D1" H 3850 2100 50  0000 C CNN
@@ -1611,7 +1612,7 @@ $EndComp
 Text Notes 3050 6650 0    60   ~ 0
 VCC should be between 2.4-3.6v.\nIt powers the AK5703 analog circuitry.
 $Comp
-L D_Schottky D3
+L D_Schottky-RESCUE-ADC D3
 U 1 1 564163F3
 P 3900 4200
 F 0 "D3" H 3900 4300 50  0000 C CNN
@@ -1622,7 +1623,7 @@ F 3 "" H 3900 4200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D4
+L D_Schottky-RESCUE-ADC D4
 U 1 1 564163F9
 P 3900 4700
 F 0 "D4" H 3900 4800 50  0000 C CNN
@@ -1671,7 +1672,7 @@ F 3 "" H 3900 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D5
+L D_Schottky-RESCUE-ADC D5
 U 1 1 56416B6F
 P 7600 1500
 F 0 "D5" H 7600 1600 50  0000 C CNN
@@ -1682,7 +1683,7 @@ F 3 "" H 7600 1500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D6
+L D_Schottky-RESCUE-ADC D6
 U 1 1 56416B75
 P 7600 2000
 F 0 "D6" H 7600 2100 50  0000 C CNN
@@ -1731,7 +1732,7 @@ F 3 "" H 7600 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D7
+L D_Schottky-RESCUE-ADC D7
 U 1 1 564174BA
 P 7600 4200
 F 0 "D7" H 7600 4300 50  0000 C CNN
@@ -1742,7 +1743,7 @@ F 3 "" H 7600 4200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D8
+L D_Schottky-RESCUE-ADC D8
 U 1 1 564174C0
 P 7600 4700
 F 0 "D8" H 7600 4800 50  0000 C CNN
