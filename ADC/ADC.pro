@@ -1,4 +1,4 @@
-update=Mon 16 Nov 2015 03:04:00 AM EST
+update=Mon 30 Nov 2015 07:32:16 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,16 @@ LibName30=adcparts
 LibName31=microphone
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
