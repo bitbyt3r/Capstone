@@ -185,8 +185,17 @@ else
     s = daq.createSession(device.Vendor.ID);
    % set(handles.channelTable,'Columns',{'microphone','channel'});
     %channeladd();
-    for i = 0 
-    
+    micnum = 0;
+    for j = 0;3
+    for i = 0:7
+        [ch,idx] = addAnalogInputChannel(s,'dev1',i,'Voltage');
+        a{j} = {micnum,s.channels(idx).Channel,j,i,'disabled'};
+        
+        channum = channum + 1;
+    end
+    set(handles.channelTable, 'Data', a);
+    s.rate = rate;
+    end
 end
 
 %columnformat = {'numeric','numeric','numeric',{'Enabled' 'disabled'}};

@@ -1,16 +1,16 @@
 
 
 
-function [] = steering(az , el, azang, elang)
+function [delay] = steering(az , el, Azimuth, Elevation)
 %clear;
-[X,Y]=meshgrid(0:el, 0:az);
+[X,Y]=meshgrid(0:az-1, 0:el-1);
 
 %[X,Y]=meshgrid(0:100, 0:100);
 %Y = Y .* 2;
 
-Azimuth =azang;
+%Azimuth =azang;
 
-Elevation = elang;
+%Elevation = elang;
 
 c = 13397.244;
 
@@ -38,6 +38,3 @@ Wy = sind(Elevation);
 
 delay = (((X .* Wx)+(Y .* Wy)) ./ c);
 
-figure;
-surf(X,Y,delay,'LineStyle', 'none');
-view(2);
