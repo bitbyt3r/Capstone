@@ -1,0 +1,42 @@
+%on the quad data
+csvwrite('dense_scan_outside_c_1.csv',dense_scan_outside_c_1);
+csvwrite('dense_scan_outside_c_2.csv',dense_scan_outside_c_2);
+csvwrite('dense_scan_outside_c_3.csv',dense_scan_outside_c_3);
+csvwrite('dense_scan_outside_c_4.csv',dense_scan_outside_c_4);
+csvwrite('dense_scan_outside_c_5.csv',dense_scan_outside_c_5);
+csvwrite('dense_scan_outside_r_1.csv',dense_scan_outside_r_1);
+csvwrite('dense_scan_outside_r_2.csv',dense_scan_outside_r_2);
+csvwrite('dense_scan_outside_r_3.csv',dense_scan_outside_r_3);
+csvwrite('dense_scan_outside_r_4.csv',dense_scan_outside_r_4);
+csvwrite('dense_scan_outside_r_5.csv',dense_scan_outside_r_5);
+csvwrite('dense_scan_outside_l_1.csv',dense_scan_outside_l_1);
+csvwrite('dense_scan_outside_l_2.csv',dense_scan_outside_l_2);
+csvwrite('dense_scan_outside_l_3.csv',dense_scan_outside_l_3);
+csvwrite('dense_scan_outside_l_4.csv',dense_scan_outside_l_4);
+csvwrite('dense_scan_outside_l_5.csv',dense_scan_outside_l_5);
+
+%this was up in the hallway
+csvwrite('dense_scan_center_hallway_1234.csv',dense_scan_center_hallway_1213);
+csvwrite('dense_scan_center_hallway_1234_2.csv',dense_scan_center_hallway_1213_2);
+
+%This was when mark and brandon spoke for 10 second interval
+csvwrite('dense_scan_hall_center_10seconds.csv',dense_scan_camerata_0_center_10);
+csvwrite('dense_scan_hall_left_10seconds.csv',dense_scan_camerata_45_left_10);
+csvwrite('dense_scan_hall_right_10seconds.csv',dense_scan_camerata_45_right_10);
+
+%this was when it was just mark speaking and we took one second intervals
+csvwrite('dense_scan_hall_left_1seconds.csv',dense_scan_camerata_45_left);
+csvwrite('dense_scan_hall_right_1seconds.csv',dense_scan_camerata_45_right);
+
+%this was when mark was at the front of the hall and walked back and fourth
+%in 5 locations
+csvwrite('dense_scan_camerata_mark1.csv',dense_scan_camerata_1);
+csvwrite('dense_scan_camerata_mark2.csv',dense_scan_camerata_2);
+csvwrite('dense_scan_camerata_mark3.csv',dense_scan_camerata_3);
+csvwrite('dense_scan_camerata_mark4.csv',dense_scan_camerata_4);
+csvwrite('dense_scan_camerata_mark5.csv',dense_scan_camerata_5);
+
+%forget who talked here
+csvwrite('dense_scan_BandMtalking.csv',dense_scan_talking);
+%brandon and i talking
+csvwrite('dense_scan_twinsTalking.csv',dense_scan_talking2);
