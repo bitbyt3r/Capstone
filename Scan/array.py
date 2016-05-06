@@ -16,6 +16,8 @@ read = int32()
 num_samples = int(PERIOD*SAMPLE_RATE)
 data = numpy.zeros((num_samples*NUM_CHANNELS,), dtype=numpy.float64)
 
+dataserver = xmlrpclib.ServerProxy("http://piro.hackafe.net:5000/")
+
 print("Using sample rate {sr}".format(sr=SAMPLE_RATE))
 
 def readADC(dirpath, filename):
@@ -31,8 +33,10 @@ def readADC(dirpath, filename):
     directory = os.path.join("e:/scans/", dirpath)
     if not os.path.exists(directory):
         os.makedirs(directory)
-    numpy.save(savepath, data.reshape(32, read.value))
+    numpy.savez_compressed(savepath, data.reshape(32, read.value))
     analog_input.StopTask()
+    with open(savepath, "r") as SAVE_FILE:
+      dataserver.save(SAVE_FILE, filename)
     return True
 
 server = SimpleXMLRPCServer(("0.0.0.0", 8000))
